@@ -1,0 +1,13 @@
+Vmpp = Vin = 29 V
+Impp = Iin = 7.35 A
+Rmpp = 3.94 Ohm
+Pin = 213.15 W = Pout
+
+Ro (< Rmpp for buck) = 1 Ohm
+Vo = (Pin * Ro)^0.5 = 14.599 V
+Io = Pin/Vo = 14.6 A
+D = Vo/Vin = 14.599/29 = 0.503 i.e. 50.3%
+
+Let f = 50000 Hz, max ripple = 10%
+L = (Vin - Vo) * D/(f * delIo) = 9.92e-5 H
+C = D * (1 - D) * Vin/(8 * f^2 * L * delVo) = 2.502e-6 F
