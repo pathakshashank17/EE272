@@ -1,7 +1,7 @@
 Vmpp = Vin = 29 V
 Impp = Iin = 7.35 A
 
-Pmax @ 1000 W/m^2 = 231.15 W
+Pmax @ 1000 W/m^2 = 213.15 W
 Pmax @ 500 W/m^2 = 107.989 W
 Pmax @ 100 W/m^2 = 20.6812 W
 
