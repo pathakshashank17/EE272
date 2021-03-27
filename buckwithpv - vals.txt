@@ -9,4 +9,6 @@ Rmpp @ 1000 W/m^2 = 3.94 Ohm
 Rmpp @ 500 W/m^2 = 7.96 Ohm
 Rmpp @ 100 W/m^2 = 37.97 Ohm
 
+Ro < Rmpp
+
 D = (Ro/Rmpp)^0.5
